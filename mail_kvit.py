@@ -7,7 +7,7 @@ to_addr = []
 
 def sendMail(TO, SUBJECT, text):
     TEXT = 'Subject: {}\n\n{}'.format(SUBJECT, text)
-    FROM = 'shapovo.kvit@yandex.ru'
+    FROM = 'example@yandex.ru'
 
     body = MIMEMultipart()
     body['From'] = FROM
@@ -16,7 +16,7 @@ def sendMail(TO, SUBJECT, text):
     body.attach(MIMEText(text, 'plain'))
 
     server = smtplib.SMTP_SSL('smtp.yandex.ru')
-    server.login('shapovo.kvit@yandex.ru', 'Shapovo')
+    server.login('example@yandex.ru', 'Password')
     server.sendmail(FROM, [TO], body.as_string())
 
 
@@ -39,7 +39,7 @@ def decode_header(header):
 
 def getMessage():
     mail = imaplib.IMAP4_SSL('imap.yandex.ru')  # данные сервера
-    mail.login('shapovo.kvit@yandex.ru', 'Shapovo')  # логин на почту
+    mail.login('example@yandex.ru', 'Password')  # логин на почту
     mail.list()  # список папок ящика
     mail.select('inbox')  # выбираем папку входящие
     result, data = mail.search(None, 'UNSEEN')  # UNSEEN
@@ -49,9 +49,6 @@ def getMessage():
         email_message = email.message_from_bytes(data[0][1])
         # чекаем на наличие вложений
         if email_message.get_content_maintype() != 'multipart':
-            '''sendMail((parse_from_addr(msg['From'])), 'An error occurred while sending receipts',
-                     'please send the file in one of the following formats: '
-                     'pdf, png, jpeg, gif, doc(MS Word document).')'''
             print('content maintype != multipart')
             name = parse_from_addr(email_message['From'])
             if name not in to_addr:

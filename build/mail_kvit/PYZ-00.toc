@@ -11,13 +11,25 @@
    'c:\\users\\vily '
    'fox\\appdata\\local\\programs\\python\\python37\\lib\\datetime.py',
    'PYMODULE'),
-  ('tracemalloc',
-   'c:\\users\\vily '
-   'fox\\appdata\\local\\programs\\python\\python37\\lib\\tracemalloc.py',
-   'PYMODULE'),
   ('stringprep',
    'c:\\users\\vily '
    'fox\\appdata\\local\\programs\\python\\python37\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('typing',
+   'c:\\users\\vily '
+   'fox\\appdata\\local\\programs\\python\\python37\\lib\\typing.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'c:\\users\\vily '
+   'fox\\appdata\\local\\programs\\python\\python37\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'c:\\users\\vily '
+   'fox\\appdata\\local\\programs\\python\\python37\\lib\\fnmatch.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'c:\\users\\vily '
+   'fox\\appdata\\local\\programs\\python\\python37\\lib\\_compat_pickle.py',
    'PYMODULE'),
   ('__future__',
    'c:\\users\\vily '
@@ -174,14 +186,6 @@
   ('platform',
    'c:\\users\\vily '
    'fox\\appdata\\local\\programs\\python\\python37\\lib\\platform.py',
-   'PYMODULE'),
-  ('token',
-   'c:\\users\\vily '
-   'fox\\appdata\\local\\programs\\python\\python37\\lib\\token.py',
-   'PYMODULE'),
-  ('tokenize',
-   'c:\\users\\vily '
-   'fox\\appdata\\local\\programs\\python\\python37\\lib\\tokenize.py',
    'PYMODULE'),
   ('urllib.parse',
    'c:\\users\\vily '
@@ -411,21 +415,9 @@
    'c:\\users\\vily '
    'fox\\appdata\\local\\programs\\python\\python37\\lib\\string.py',
    'PYMODULE'),
-  ('_compat_pickle',
-   'c:\\users\\vily '
-   'fox\\appdata\\local\\programs\\python\\python37\\lib\\_compat_pickle.py',
-   'PYMODULE'),
-  ('pickle',
-   'c:\\users\\vily '
-   'fox\\appdata\\local\\programs\\python\\python37\\lib\\pickle.py',
-   'PYMODULE'),
   ('logging',
    'c:\\users\\vily '
    'fox\\appdata\\local\\programs\\python\\python37\\lib\\logging\\__init__.py',
-   'PYMODULE'),
-  ('pprint',
-   'c:\\users\\vily '
-   'fox\\appdata\\local\\programs\\python\\python37\\lib\\pprint.py',
    'PYMODULE'),
   ('unittest.case',
    'c:\\users\\vily '
@@ -434,10 +426,6 @@
   ('unittest.suite',
    'c:\\users\\vily '
    'fox\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\suite.py',
-   'PYMODULE'),
-  ('fnmatch',
-   'c:\\users\\vily '
-   'fox\\appdata\\local\\programs\\python\\python37\\lib\\fnmatch.py',
    'PYMODULE'),
   ('unittest.loader',
    'c:\\users\\vily '
@@ -459,33 +447,21 @@
    'c:\\users\\vily '
    'fox\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\__init__.py',
    'PYMODULE'),
-  ('struct',
-   'c:\\users\\vily '
-   'fox\\appdata\\local\\programs\\python\\python37\\lib\\struct.py',
-   'PYMODULE'),
-  ('gettext',
-   'c:\\users\\vily '
-   'fox\\appdata\\local\\programs\\python\\python37\\lib\\gettext.py',
-   'PYMODULE'),
-  ('textwrap',
-   'c:\\users\\vily '
-   'fox\\appdata\\local\\programs\\python\\python37\\lib\\textwrap.py',
-   'PYMODULE'),
-  ('argparse',
-   'c:\\users\\vily '
-   'fox\\appdata\\local\\programs\\python\\python37\\lib\\argparse.py',
-   'PYMODULE'),
   ('doctest',
    'c:\\users\\vily '
    'fox\\appdata\\local\\programs\\python\\python37\\lib\\doctest.py',
    'PYMODULE'),
-  ('typing',
+  ('pprint',
    'c:\\users\\vily '
-   'fox\\appdata\\local\\programs\\python\\python37\\lib\\typing.py',
+   'fox\\appdata\\local\\programs\\python\\python37\\lib\\pprint.py',
    'PYMODULE'),
-  ('_py_abc',
+  ('pickle',
    'c:\\users\\vily '
-   'fox\\appdata\\local\\programs\\python\\python37\\lib\\_py_abc.py',
+   'fox\\appdata\\local\\programs\\python\\python37\\lib\\pickle.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'c:\\users\\vily '
+   'fox\\appdata\\local\\programs\\python\\python37\\lib\\tracemalloc.py',
    'PYMODULE'),
   ('stat',
    'c:\\users\\vily '
@@ -523,9 +499,33 @@
    'c:\\users\\vily '
    'fox\\appdata\\local\\programs\\python\\python37\\lib\\subprocess.py',
    'PYMODULE'),
+  ('token',
+   'c:\\users\\vily '
+   'fox\\appdata\\local\\programs\\python\\python37\\lib\\token.py',
+   'PYMODULE'),
+  ('struct',
+   'c:\\users\\vily '
+   'fox\\appdata\\local\\programs\\python\\python37\\lib\\struct.py',
+   'PYMODULE'),
+  ('gettext',
+   'c:\\users\\vily '
+   'fox\\appdata\\local\\programs\\python\\python37\\lib\\gettext.py',
+   'PYMODULE'),
   ('copy',
    'c:\\users\\vily '
    'fox\\appdata\\local\\programs\\python\\python37\\lib\\copy.py',
+   'PYMODULE'),
+  ('textwrap',
+   'c:\\users\\vily '
+   'fox\\appdata\\local\\programs\\python\\python37\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('argparse',
+   'c:\\users\\vily '
+   'fox\\appdata\\local\\programs\\python\\python37\\lib\\argparse.py',
+   'PYMODULE'),
+  ('tokenize',
+   'c:\\users\\vily '
+   'fox\\appdata\\local\\programs\\python\\python37\\lib\\tokenize.py',
    'PYMODULE'),
   ('email.mime.text',
    'c:\\users\\vily '

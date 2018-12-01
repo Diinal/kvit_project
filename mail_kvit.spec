@@ -29,4 +29,4 @@ exe = EXE(pyz,
           strip=False,
           upx=True,
           runtime_tmpdir=None,
-          console=True , icon='C:\\Users\\Vily Fox\\PycharmProjects\\kvit\\icon_mal.ico')
+          console=True , icon='C:\\Users\\Vily Fox\\PycharmProjects\\kvit\\icon_mail.ico')
